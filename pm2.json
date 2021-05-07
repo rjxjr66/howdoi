@@ -1,0 +1,7 @@
+{
+    "apps": [{
+        "name": "howdoi",
+        "script": "yarn",
+        "args": "run start:prod"
+    }]
+}

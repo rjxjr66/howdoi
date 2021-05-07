@@ -1,15 +1,19 @@
 {
-  "name": "howdoi",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "10.2.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
-  }
+    "name": "howdoi",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "start:prod": "next start --port 3002"
+    },
+    "dependencies": {
+        "axios": "^0.21.1",
+        "firebase": "^8.5.0",
+        "next": "10.2.0",
+        "react": "17.0.2",
+        "react-dom": "17.0.2",
+        "react-hook-form": "^7.4.0"
+    }
 }
